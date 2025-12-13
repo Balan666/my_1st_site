@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Give it a try!</title>
+
+    <style>
+        body {
+      background-color: #FFD131;
+    }
+
+    div {
+      background-color: #ffe99b;
+      padding: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+      text-align: center;
+      max-width: 500px;
+      border-radius: 5px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 3em;
+      margin: 20px;
+    }
+
+    button {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      border: 4px solid #000;
+    }
+
+    button:hover {
+      background-color: #9FFFE3;
+    }
+
+    button:active {
+      background-color: #000;
+      color: #FFF;
+    }
+    </style>
+</head>
+<body>
+<div>
+    <p>?</p>
+    <button>Click me!</button>
+</div>
+
+<script>
+    var buttonElement = document.querySelector("button");
+    var textElement = document.querySelector("p");
+
+    buttonElement.addEventListener("click", changeText, false);
+
+    // what gets called when the button is clicked
+    function changeText(e) {
+      textElement.innerText = "hello, world!";
+    }
+</script>
+
+</body>
+</html>

@@ -115,3 +115,7 @@ function renderTechSunburst() {
 
   window.addEventListener('resize', () => chart.resize());
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderTechSunburst();
+});

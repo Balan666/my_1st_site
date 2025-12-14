@@ -36,6 +36,5 @@
     }
 
     .row {
-      display: flex;
-      gap: 20px; /* отступ между */
+      gap: 20px;
     }

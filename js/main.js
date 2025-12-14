@@ -1,5 +1,5 @@
 function renderSkillsChart() {
-  const chart = echarts.init(document.getElementById('skills-chart'));
+  const chart = echarts.init(document.getElementById('skills-hist'));
   chart.setOption({
     title: { text: 'Мои навыки' },
     xAxis: { type: 'value' },

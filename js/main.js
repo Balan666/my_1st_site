@@ -5,11 +5,11 @@ function renderSkillsChart() {
     xAxis: { type: 'value' },
     yAxis: {
       type: 'category',
-      data: ['SQL', 'Modus', 'PIX BI']
+      data: ['SQL', 'Modus',  'PIX BI']
     },
     series: [{
       type: 'bar',
-      data: [8, 5, 3]
+      data: [3, 5, 8]
     }]
   });
 }
